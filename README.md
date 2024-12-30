@@ -1,32 +1,31 @@
-# Custom Email-Sending Application 
+# Sample Python/Flask Application 
 
 This is a professional email-sending application built using Python and Gradio. The application allows users to send customized emails, schedule email deliveries, monitor email statuses, and generate email analytics graphs. The backend utilizes MongoDB for storing email statuses, while Groq's API is used for content generation. The system is designed for scalability and real-time updates.<br>
 
-## Features <br>
-- **Email Sending:** Send customized emails to recipients from a CSV file. <br>
-- **Content Generation:** Use Groq's API to generate email content based on a customizable prompt and data from a CSV. <br>
-- **Email Scheduling:** Schedule emails for future delivery or send them immediately with throttling options.<br>
-- **Real-Time Analytics:** View email send status, delivery status, and opened status, along with a live progress bar. <br>
-- **Email Status Tracking:** Track the status of emails, including success/failure, delivery, and whether they were opened.<br>
-- **Graphical Analytics:** Visualize email send statistics with bar charts showing the total count of Sent, Failed, Scheduled, and Pending emails.<br>
 
-## Requirements<br>
-- Python 3.x<br>
-- `gradio` for the frontend interface <br>
-- `pandas` for handling CSV data <br>
-- `pymongo` for MongoDB integration<br>
-- `apscheduler` for scheduling email tasks<br>
-- `matplotlib` for generating analytics graphs<br>
-- `groq` for content generation<br>
-- `PIL` for image handling<br>
-- SMTP server details for sending emails (e.g., Gmail)<br>
+## 🚀 Getting Started <br>
 
-## Setup <br>
+## Step 1: Open Using Daytona [Daytona My_Project](https://github.com/daytonaio/sample-python-ai-playlist-generator)
+To quickly start working on this project, use Daytona to set up a standardized development environment.
 
-### Step 1: Install Dependencies <br>
-Ensure you have the required Python packages installed:
-    ```bash
-    pip install gradio pandas pymongo apscheduler matplotlib pillow groq
+1. **Install Daytona**:
+Follow the Daytona installation guide to install Daytona on your machine:
+[Daytona Installation Guide](https://github.com/daytonaio/daytona/)   
+
+2. **Create the Workspace**: 
+
+```bash
+daytona create https://github.com/Ronit-afk55/MailSender
+```
+This command will set up the workspace with all necessary files and configurations.
+
+3. **Set up Dependencies**:
+
+*Navigate to the project directory:*
+
+```bash
+cd Dynamic_Emotion-Based_Playlist_Generator
+```
 
 ### Step 2: MongoDB Setup <br>
 You must have a MongoDB instance set up. The connection is configured to a MongoDB Atlas cluster in the code. If using your own MongoDB setup, update the connection string as needed.
@@ -50,6 +49,24 @@ After setting up the necessary configurations, run the Python script to launch t
     ```bash
     python app.py
 
+## Features <br>
+- **Email Sending:** Send customized emails to recipients from a CSV file. <br>
+- **Content Generation:** Use Groq's API to generate email content based on a customizable prompt and data from a CSV. <br>
+- **Email Scheduling:** Schedule emails for future delivery or send them immediately with throttling options.<br>
+- **Real-Time Analytics:** View email send status, delivery status, and opened status, along with a live progress bar. <br>
+- **Email Status Tracking:** Track the status of emails, including success/failure, delivery, and whether they were opened.<br>
+- **Graphical Analytics:** Visualize email send statistics with bar charts showing the total count of Sent, Failed, Scheduled, and Pending emails.<br>
+
+## Requirements<br>
+- Python 3.x<br>
+- `gradio` for the frontend interface <br>
+- `pandas` for handling CSV data <br>
+- `pymongo` for MongoDB integration<br>
+- `apscheduler` for scheduling email tasks<br>
+- `matplotlib` for generating analytics graphs<br>
+- `groq` for content generation<br>
+- `PIL` for image handling<br>
+- SMTP server details for sending emails (e.g., Gmail)<br>
 
 ### Gradio Interface<br>
 Once the application is running, you'll see the following sections in the Gradio UI:<br>
