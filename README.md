@@ -5,7 +5,7 @@ This is a professional email-sending application built using Python and Gradio. 
 
 ## 🚀 Getting Started <br>
 
-## Step 1: Open Using Daytona [Daytona My_Project](https://github.com/daytonaio/sample-python-ai-playlist-generator)
+## Step 1: Open Using Daytona
 To quickly start working on this project, use Daytona to set up a standardized development environment.
 
 1. **Install Daytona**:
@@ -24,7 +24,7 @@ This command will set up the workspace with all necessary files and configuratio
 *Navigate to the project directory:*
 
 ```bash
-cd Dynamic_Emotion-Based_Playlist_Generator
+cd Sample_MailSender
 ```
 
 ### Step 2: MongoDB Setup <br>
