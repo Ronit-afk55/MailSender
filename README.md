@@ -1,4 +1,4 @@
-# Custom Email-Sending Application [MailSage](https://huggingface.co/spaces/Zedoman/Email_Sender)
+# Custom Email-Sending Application 
 
 This is a professional email-sending application built using Python and Gradio. The application allows users to send customized emails, schedule email deliveries, monitor email statuses, and generate email analytics graphs. The backend utilizes MongoDB for storing email statuses, while Groq's API is used for content generation. The system is designed for scalability and real-time updates.<br>
 
