@@ -15,7 +15,7 @@ Follow the Daytona installation guide to install Daytona on your machine:
 2. **Create the Workspace**: 
 
 ```bash
-daytona create https://github.com/Ronit-afk55/MailSender
+daytona create https://github.com/Ronit-afk55/Sample_MailSender
 ```
 This command will set up the workspace with all necessary files and configurations.
 
